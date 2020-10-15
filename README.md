@@ -2,17 +2,18 @@
 Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition" 
 
 [Project Page](https://www3.cs.stonybrook.edu/~cvl/projects/SID/index.html)
+
 [Paper](https://arxiv.org/abs/1908.08628)
 
-<img src='./training.png' align="center" width=500>
+<img src='./training.png' align="center">
 
-**New**: Please check out [Weakly Supervised Shadow Removal] (https://github.com/lmhieu612/FSS2SR), our new unparied patch-to-patch translation model for shadow removal.
+**New**: Please check out [Weakly Supervised Shadow Removal](https://github.com/lmhieu612/FSS2SR), our new unparied patch-to-patch translation model for shadow removal.
 
 This pytorch implementation is heavily based on the pix2pix framework written by [Jun-Yan Zhu](https://github.com/junyanz). Many thanks!
 
 **Note**: We have made several technical improvements over the original implementation and this code might generate slightly better results than what reported in the original paper, getting around 7.0 RMSE on shadow area. We will include the pre-trained models of both the old version and this version soon.
 
-To generate the train_params: please run the ipython notebook included in "data_processing".
+To generate "train_params": please run the ipython notebook included in "data_processing".
 
 If you are using this code for research, please cite:
 
