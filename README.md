@@ -14,7 +14,8 @@ This pytorch implementation is heavily based on the pix2pix framework written by
 **Pretrained-model**:
 
 --This version:
-https://drive.google.com/drive/folders/1Gi9EMzXCJgUdPmveJupZ14LKgePFh4-Z?usp=sharing
+
+https://drive.google.com/drive/folders/17G_lf1k2CNt9wt4X2hWxeT8-7bOXpWQe?usp=sharing
 
 --ICCV19 version: To be updated soon.
 
@@ -22,6 +23,10 @@ https://drive.google.com/drive/folders/1Gi9EMzXCJgUdPmveJupZ14LKgePFh4-Z?usp=sha
 **Note**: We have made several technical improvements over the original implementation and this code might generate slightly better results than what reported in the original paper, getting around 7.0 RMSE on shadow area. We will include the pre-trained models of both the old version and this version soon.
 
 
+##Testing
+1. Download the pretrained-model above and but them into ./checkpoint_path/model_name/..pth
+2. Set the path to the shadow-mask of the test set
+3. Run by ```python infer.py --model SIDPAMIw --name model_name --epoch best```
 
 
 
