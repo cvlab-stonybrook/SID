@@ -48,6 +48,7 @@ Please refer to the training script in the "scripts" folder.
 ##Shadow removal results:
 
 SBU: https://drive.google.com/file/d/1I0_m68_dKwK4gD6WSRgChtXaNrvsU56l/view?usp=sharing
+
 ISTD: https://drive.google.com/file/d/1m6FLiswQYiAiheJrJhofBQkyvQte8mt_/view?usp=sharing
 
 
