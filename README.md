@@ -13,28 +13,61 @@ This pytorch implementation is heavily based on the pix2pix framework written by
 
 **Pretrained-model**:
 
---This version:
+----ICCV19 version with limiting the search space for shadow parameters (Our model reported in the ICCV19 paper does not include this simple technique):
 
 https://drive.google.com/drive/folders/17G_lf1k2CNt9wt4X2hWxeT8-7bOXpWQe?usp=sharing
 
---ICCV19 version: To be updated soon.
+----PAMI (under review) version with the inpaining network:
 
+https://drive.google.com/drive/folders/1K9EZ-9viGeZ3MlNDlzgAUcguSb5xFp_8?usp=sharing
 
-**Note**: We have made several technical improvements over the original implementation and this code might generate slightly better results than what reported in the original paper, getting around 7.0 RMSE on shadow area. We will include the pre-trained models of both the old version and this version soon.
 
 
 ##Testing
 1. Download the pretrained-model above and but them into ./checkpoint_path/model_name/..pth
 2. Set the path to the shadow-mask of the test set
-3. Run by ```python infer.py --model SIDPAMIw --name model_name --epoch best```
+3. 
+
+For the ICCV19 version: 
+
+```python infer.py --model SIDPAMIw --name model_name --epoch best```
+
+For the PAMI version:
+
+```python infer.py --model SIDPAMIwinp --name model_name --epoch best```
 
 
+
+##Training
 
 To generate "train_params": please run the ipython notebook included in "data_processing".
+
+Please refer to the training script in the "scripts" folder. 
+
+
+##Shadow removal results:
+
+SBU: https://drive.google.com/file/d/1I0_m68_dKwK4gD6WSRgChtXaNrvsU56l/view?usp=sharing
+ISTD: https://drive.google.com/file/d/1m6FLiswQYiAiheJrJhofBQkyvQte8mt_/view?usp=sharing
+
+
 
 If you are using this code for research, please cite:
 
 ```
+Physics-based Shadow Image Decomposition for Shadow Removal
+Hieu Le and Dimitris Samaras
+
+@misc{le2020physicsbased,
+      title={Physics-based Shadow Image Decomposition for Shadow Removal}, 
+      author={Hieu Le and Dimitris Samaras},
+      year={2020},
+      eprint={2012.13018},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+
 Shadow Removal via Shadow Image Decomposition 
 Hieu Le and Dimitris Samaras
 
