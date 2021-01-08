@@ -5,6 +5,12 @@ Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition
 
 [Paper](https://arxiv.org/abs/1908.08628)
 
+[SBU-TimeLapse Dataset] http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SBUTimeLapse.zip
+
+**Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this for all our papers and suggest everyone to do the same. 
+
+This MAE evaluation code can be downloaded here: https://drive.google.com/file/d/1-lG8nAJbWajAC4xopx7hGPKbuwYRw4x-/view?usp=sharing 
+
 <img src='./training.png' align="center">
 
 **New**: Please check out [Weakly Supervised Shadow Removal](https://github.com/lmhieu612/FSS2SR), our new unparied patch-to-patch translation model for shadow removal.
