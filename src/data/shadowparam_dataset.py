@@ -102,8 +102,10 @@ class ShadowParamDataset(BaseDataset):
         w = birdy['A'].size[0]
         h = birdy['A'].size[1]
         #rescale A to the range [1; log_scale] then take log
-        if self.opt.lambda_bd>0:
-            birdy['bd_img'] =  ImageChops.subtract(B_img.filter(ImageFilter.MaxFilter(3)),B_img.filter(ImageFilter.MinFilter(3))) 
+
+
+        birdy['penumbra'] =  ImageChops.subtract(birdy['B'].filter(ImageFilter.MaxFilter(11)),birdy['B'].filter(ImageFilter.MinFilter(11))) 
+
                     
         for k,im in birdy.items():
             birdy[k] = self.transformB(im)
