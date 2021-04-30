@@ -5,11 +5,11 @@ Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition
 
 [Paper](https://arxiv.org/abs/1908.08628)
 
-[SBU-TimeLapse Dataset](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SBUTimeLapse.zip)
+⭐️[SBU-TimeLapse Dataset](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SBUTimeLapse.zip)
 
-[SBU-TimeLapse Results](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SID_results.zip)
+⭐️[SBU-TimeLapse Results](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SID_results.zip)
 
-**Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
+🔥🔥🔥🔥Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
 
 This MAE evaluation code can be downloaded here: https://drive.google.com/file/d/1-lG8nAJbWajAC4xopx7hGPKbuwYRw4x-/view?usp=sharing 
 
@@ -53,7 +53,7 @@ To generate "train_params": please run the ipython notebook included in "data_pr
 Please refer to the training script in the "scripts" folder. 
 
 
-##Shadow removal results:
+##⭐️⭐️Shadow removal results:
 
 SBU: https://drive.google.com/file/d/1I0_m68_dKwK4gD6WSRgChtXaNrvsU56l/view?usp=sharing
 
