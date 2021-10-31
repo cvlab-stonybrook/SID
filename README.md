@@ -35,7 +35,7 @@ https://drive.google.com/drive/folders/1K9EZ-9viGeZ3MlNDlzgAUcguSb5xFp_8?usp=sha
 
 
 
-##Testing
+**Testing**
 1. Download the pretrained-model above and but them into ./checkpoint_path/model_name/..pth
 2. Set the path to the shadow-mask of the test set
 3. 
@@ -50,14 +50,14 @@ For the PAMI version:
 
 
 
-##Training
+**Training**
 
 To generate "train_params": please run the ipython notebook included in "data_processing".
 
 Please refer to the training script in the "scripts" folder. 
 
 
-##⭐️⭐️Shadow removal results:
+**Shadow removal results:**
 
 SBU: https://drive.google.com/file/d/1I0_m68_dKwK4gD6WSRgChtXaNrvsU56l/view?usp=sharing
 
