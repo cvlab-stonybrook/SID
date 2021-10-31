@@ -9,7 +9,11 @@ Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition
 
 ⭐️[SBU-TimeLapse Results](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SID_results.zip)
 
-🔥🔥🔥🔥Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
+⭐️[ISTD Adjusted Dataset](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view?usp=sharing)
+
+We only adjust the shadow-free images of the ISTD dataset, the shadow images and shadow masks stay the same as of the original ISTD dataset.
+
+🔥🔥🔥🔥**Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
 
 This MAE evaluation code can be downloaded here: https://drive.google.com/file/d/1-lG8nAJbWajAC4xopx7hGPKbuwYRw4x-/view?usp=sharing 
 
@@ -25,7 +29,7 @@ This pytorch implementation is heavily based on the pix2pix framework written by
 
 https://drive.google.com/drive/folders/17G_lf1k2CNt9wt4X2hWxeT8-7bOXpWQe?usp=sharing
 
-----PAMI (under review) version with the inpaining network:
+----PAMI21 (Accepted) version with the inpaining network:
 
 https://drive.google.com/drive/folders/1K9EZ-9viGeZ3MlNDlzgAUcguSb5xFp_8?usp=sharing
 
@@ -64,7 +68,7 @@ ISTD: https://drive.google.com/file/d/1m6FLiswQYiAiheJrJhofBQkyvQte8mt_/view?usp
 If you are using this code for research, please cite:
 
 ```
-Physics-based Shadow Image Decomposition for Shadow Removal
+Physics-based Shadow Image Decomposition for Shadow Removal - PAMI 2021 (Accepted)
 Hieu Le and Dimitris Samaras
 
 @misc{le2020physicsbased,
