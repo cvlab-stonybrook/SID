@@ -1,19 +1,21 @@
 # Shadow Removal via Shadow Image Decomposition
-Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition" 
+Pytorch implementation for ICCV19 "Shadow Removal via Shadow Image Decomposition" and PAMI21 "Physics-based Shadow Image Decomposition for Shadow Removal"
 
 [Project Page](https://www3.cs.stonybrook.edu/~cvl/projects/SID/index.html)
 
-[Paper](https://arxiv.org/abs/1908.08628)
+Paper: https://arxiv.org/abs/2012.13018
 
-⭐️[SBU-TimeLapse Dataset](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SBUTimeLapse.zip)
+**Download links:**
 
-⭐️[SBU-TimeLapse Results](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SID_results.zip)
+[SBU-TimeLapse Dataset](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SBUTimeLapse.zip)
 
-⭐️[ISTD Adjusted Dataset](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view?usp=sharing)
+[SBU-TimeLapse Results](http://vision.cs.stonybrook.edu/~hieule/SBUTimeLapse/SID_results.zip)
 
-We only adjust the shadow-free images of the ISTD dataset, the shadow images and shadow masks stay the same as of the original ISTD dataset.
+[Adjusted ISTD Dataset](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view?usp=sharing)
 
-🔥🔥🔥🔥**Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
+For the A-ISTD dataset, we only adjust the shadow-free images of the ISTD dataset, the shadow images and shadow masks stay the same as of the original ISTD dataset.
+
+**Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
 
 This MAE evaluation code can be downloaded here: https://drive.google.com/file/d/1-lG8nAJbWajAC4xopx7hGPKbuwYRw4x-/view?usp=sharing 
 
