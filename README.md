@@ -13,7 +13,7 @@ Paper: https://arxiv.org/abs/2012.13018
 
 [Adjusted ISTD Dataset](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view?usp=sharing) 
 
-Please note that the ISTD dataset is the contribution of Wang et. al. (CVPR18). Here we just provide an adjusted version of its with slight modification: we adjust the shadow-free images, the shadow images and shadow masks stay the same as of the original ISTD dataset. If you are using the Adjusted ISTD Dataset, kindly consider to cite the original ISTD dataset as well. 
+Please note that the ISTD dataset is the contribution of Wang et al. (CVPR18). Here we just provide an adjusted version of its with slight modification: we adjust the shadow-free images, the shadow images and shadow masks stay the same as of the original ISTD dataset. If you are using the Adjusted ISTD Dataset, kindly consider to cite the original ISTD dataset as well. 
 
 **Note on the shadow removal evaluation code**: We recently figured that the RMSE evaluation code that many papers have been using (including ours) is actually calculating Mean Absolute Error. We will retrospectively fix this in all our papers and suggest everyone to do the same. 
 
